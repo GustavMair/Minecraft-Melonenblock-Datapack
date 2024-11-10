@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:brown_stained_glass"
+    },
+    "title": "Komprimierter Fisch",
+    "description": "Fische sind gesund!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "melonenblock:wasistdas3",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ender_eye"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:mending"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "melonenblock:tp_farmlands"
+  }
+}

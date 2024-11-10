@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:mending\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:1,UUID:[I;-1627413956,1606502477,-1720261167,-1116323468],Slot:\"offhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:3,Operation:1,UUID:[I;-186711444,1541557613,-1402925248,1211515887],Slot:\"offhand\"}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "text": "Schützender Staub",
+                  "color": "dark_purple"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Schützt dich vor gefährlichen Angriffen und verleiht dir die Möglichkeit schneller zu laufen!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

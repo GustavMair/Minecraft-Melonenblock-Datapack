@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:green_dye"
+    },
+    "title": "Komprimierte Melonen",
+    "description": "Die schmecken gut!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "melonenblock:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:green_dye"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

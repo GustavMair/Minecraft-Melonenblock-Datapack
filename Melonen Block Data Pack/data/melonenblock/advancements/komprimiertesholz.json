@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dark_oak_log"
+    },
+    "title": "Komprimiertes Holz",
+    "description": "Ein Haufen Holz!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "melonenblock:wasistdas2",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_oak_log"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

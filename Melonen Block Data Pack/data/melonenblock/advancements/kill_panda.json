@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cat",
+          "passenger": {
+            "type": "minecraft:panda"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:poisonous_potato"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "melonenblock:kill_panda"
+  }
+}

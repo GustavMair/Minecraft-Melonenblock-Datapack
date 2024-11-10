@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:chicken_spawn_egg"
+    },
+    "title": "Was ist das?",
+    "description": "Bewahre solche Eier gut auf!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "melonenblock:komprimiertespapier",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chicken_spawn_egg"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

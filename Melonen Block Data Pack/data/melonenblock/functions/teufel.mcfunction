@@ -1,0 +1,1 @@
+tellraw @p {"text":"Teufel: Dieses Axolotl war sehr böse! Bringe seine Seele zu mir, und ich gebe dir ein paar Mitbringsel aus der Hölle!","color":"dark_purple","clickEvent":{"action":"run_command","value":"/tellraw @p {\"text\":\"GustavMair und RickAstley: Never Gonna Give You Up!\",\"color\":\"gold\"}"}}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:purple_stained_glass"
+    },
+    "title": "Komprimierter Kristall",
+    "description": "9 Kristalle in einem!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "melonenblock:wasistdas4",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purple_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

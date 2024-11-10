@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:cat"
+        },
+        "item": {
+          "items": [
+            "minecraft:elytra"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "melonenblock:kill_seele"
+  }
+}

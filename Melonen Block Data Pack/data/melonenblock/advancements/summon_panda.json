@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:water_bucket"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:bamboo"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:unbreaking"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "melonenblock:summon_panda"
+  }
+}

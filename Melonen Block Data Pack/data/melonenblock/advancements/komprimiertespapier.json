@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:white_stained_glass"
+    },
+    "title": "Komprimiertes Papier",
+    "description": "Damit kann man viele Bücher schreiben!",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "melonenblock:wasistdas",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_stained_glass"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
